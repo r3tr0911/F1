@@ -30,7 +30,7 @@ module.exports = (sequelize) => {
       allowNull: true,
     },
     Fecha_de_Nacimiento: {
-      type: DataTypes.NUMBER,
+      type: DataTypes.INTEGER,
       allowNull: true,
     },
   });
